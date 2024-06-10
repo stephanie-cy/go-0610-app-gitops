@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: go-0610-app-repository
+spec:
+  url: https://github.com/stephanie-cy/go-0610-app
